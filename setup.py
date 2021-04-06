@@ -27,6 +27,7 @@ CLASSIFIERS = [
     'Framework :: Django :: 2.2',
     'Framework :: Django :: 3.0',
     'Framework :: Django :: 3.1',
+    'Framework :: Django :: 3.2',
 ]
 
 
@@ -44,7 +45,7 @@ setup(
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
-        'Django>=1.8,<3.2',
+        'Django>=1.8,<3.3',
     ],
     packages=find_packages(exclude=['example', 'docs']),
     include_package_data=True,
